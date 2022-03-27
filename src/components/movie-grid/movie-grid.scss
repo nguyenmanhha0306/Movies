@@ -14,3 +14,25 @@
     text-align: center;
   }
 }
+
+.movie-search {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+
+  input {
+    width: 50%;
+    padding-right: 1rem;
+  }
+
+  button {
+    position: relative;
+    right: 0;
+    top: 2px;
+
+    @include mobile {
+      right: 1px;
+      top: 1px;
+    }
+  }
+}
